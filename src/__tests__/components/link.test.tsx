@@ -3,13 +3,13 @@ import { renderWithTheme } from "../../testHelpers";
 import { Link, LinkExternal } from "../../components/Link";
 
 it("renders link correctly", () => {
-  const { asFragment } = renderWithTheme(<Link href="https://saltswap.finance">Link</Link>);
+  const { asFragment } = renderWithTheme(<Link href="https://frappe.finance">Link</Link>);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <a
         class="sc-bdfBwQ sc-gsTCUz fcHYwF djpNeP"
         color="primary"
-        href="https://saltswap.finance"
+        href="https://frappe.finance"
       >
         Link
       </a>
@@ -18,13 +18,13 @@ it("renders link correctly", () => {
 });
 
 it("renders link external link correctly", () => {
-  const { asFragment } = renderWithTheme(<LinkExternal href="https://saltswap.finance">Link</LinkExternal>);
+  const { asFragment } = renderWithTheme(<LinkExternal href="https://frappe.finance">Link</LinkExternal>);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <a
         class="sc-bdfBwQ sc-gsTCUz fcHYwF djpNeP"
         color="primary"
-        href="https://saltswap.finance"
+        href="https://frappe.finance"
         rel="noreferrer noopener"
         target="_blank"
       >

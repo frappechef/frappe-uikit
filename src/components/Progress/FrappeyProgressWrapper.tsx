@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SaltyProgressWrapper = styled.div`
+const FrappeyProgressWrapper = styled.div`
   display: flex;
   z-index: 2;
   top: -65%;
@@ -9,4 +9,4 @@ const SaltyProgressWrapper = styled.div`
   transition: left 200ms ease-out;
 `;
 
-export default SaltyProgressWrapper;
+export default FrappeyProgressWrapper;

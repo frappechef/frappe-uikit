@@ -141,8 +141,8 @@ export const WithProfile: React.FC = () => (
       cakePriceUsd={0.23158668932877668}
       links={links}
       profile={{
-        username: "saltswap",
-        image: "https://saltswap.finance/images/nfts/blueberries-preview.png",
+        username: "frappechef",
+        image: "https://frappe.finance/images/nfts/blueberries-preview.png",
         profileLink: "/profile",
         noProfileLink: "/no-profile",
       }}

@@ -1,28 +1,28 @@
-# 🧂 SaltSwap UIkit
+#  Frappe Finance UIkit
 
-[![Version](https://img.shields.io/npm/v/@saltswap/uikit)](https://www.npmjs.com/package/@saltswap/uikit) [![Size](https://img.shields.io/bundlephobia/min/@saltswap/uikit)](https://www.npmjs.com/package/@saltswap/uikit)
+[![Version](https://img.shields.io/npm/v/@frappefinance-libs/uikit)](https://www.npmjs.com/package/@frappefinance-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@frappefinance-libs/uikit)](https://www.npmjs.com/package/@frappefinance-libs/uikit)
 
-SaltSwap UIkit is a set of React components and hooks used to build pages on SaltSwap's apps.
+Frappe UIkit is a set of React components and hooks used to build pages on Frappe's apps.
 
 It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @saltswap/uikit`
+`yarn add @frappefinance-libs/uikit`
 
 ## npm
 
-https://www.npmjs.com/package/@saltswap/uikit
+https://www.npmjs.com/package/@frappefinance-libs/uikit
 
 ## Setup
 
 ### Theme
 
-Before using SaltSwap UIkit, you need to provide the theme file to styled-component.
+Before using Frappe UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@saltswap/uikit'
+import { light, dark } from '@frappefinance-libs/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -32,7 +32,7 @@ import { light, dark } from '@saltswap/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@saltswap/uikit'
+import { ResetCSS } from '@frappefinance-libs/uikit'
 ...
 <ResetCSS />
 ```
@@ -43,4 +43,4 @@ This project is built with Typescript and export all the relevant types.
 
 ## How to use the UIkit
 
-If you want to use components from the UIkit, check the [Storybook documentation](https://saltswap.github.io/saltswap-uikit/)
+If you want to use components from the UIkit, check the [Storybook documentation](https://frappefinance.github.io/frappe-uikit/)

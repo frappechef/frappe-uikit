@@ -21,8 +21,8 @@ export const Default: React.FC = () => (
       <Text color="textDisabled">Crumb 2</Text>
     </BreadCrumbs>
     <BreadCrumbs>
-      <Text>SaltSwap</Text>
-      <Text>The #99 AMM and yield farm on Binance Smart Chain.</Text>
+      <Text>Frappe Finance</Text>
+      <Text>The sweetest yield farm on Binance Smart Chain.</Text>
     </BreadCrumbs>
   </Text>
 );

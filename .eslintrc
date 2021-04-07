@@ -1,5 +1,5 @@
 {
-  "extends": "@saltswap/eslint-config-salt",
+  "extends": "@frappefinance-libs/eslint-config-frappe",
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",

@@ -1,7 +1,7 @@
 import "styled-components";
-import { SaltTheme } from "./theme";
+import { FrappeTheme } from "./theme";
 
 declare module "styled-components" {
   /* eslint-disable @typescript-eslint/no-empty-interface */
-  export interface DefaultTheme extends SaltTheme {}
+  export interface DefaultTheme extends FrappeTheme {}
 }

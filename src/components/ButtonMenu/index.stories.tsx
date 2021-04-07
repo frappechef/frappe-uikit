@@ -68,13 +68,13 @@ export const AsLinks: React.FC = () => (
   <>
     <Row>
       <ButtonMenu activeIndex={0}>
-        <ButtonMenuItem as="a" href="https://saltswap.finance">
+        <ButtonMenuItem as="a" href="https://frappe.finance">
           Link 1
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://saltswap.finance">
+        <ButtonMenuItem as="a" href="https://frappe.finance">
           Link 2
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://saltswap.finance">
+        <ButtonMenuItem as="a" href="https://frappe.finance">
           Link 3
         </ButtonMenuItem>
       </ButtonMenu>

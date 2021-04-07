@@ -1,7 +1,7 @@
-# Contributing to the SaltSwap ecosystem 🥞
+# Contributing to the Frappe Finance ecosystem
 
 Thanks for taking the time to contribute !
-You can start by reading our [Contribution guidelines](https://docs.saltswap.finance/code/contributing) first.
+You can start by reading our [Contribution guidelines](https://docs.frappe.finance/code/contributing) first.
 
 ## Setup
 

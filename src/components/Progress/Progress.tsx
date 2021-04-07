@@ -1,8 +1,8 @@
 import React from "react";
 import StyledProgress, { Bar } from "./StyledProgress";
-import { ProgressSalt } from "../Svg";
+import { ProgressFrappe } from "../Svg";
 import { ProgressProps } from "./types";
-import SaltyProgressWrapper from "./SaltyProgressWrapper";
+import FrappeyProgressWrapper from "./FrappeyProgressWrapper";
 
 const stepGuard = (step: number) => {
   if (step < 0) {
@@ -16,12 +16,12 @@ const stepGuard = (step: number) => {
   return step;
 };
 
-const Progress: React.FC<ProgressProps> = ({ primaryStep = 0, secondaryStep = null, showSaltyProgress = false }) => (
+const Progress: React.FC<ProgressProps> = ({ primaryStep = 0, secondaryStep = null, showFrappeyProgress = false }) => (
   <StyledProgress>
-    {showSaltyProgress && (
-      <SaltyProgressWrapper style={{ left: `${stepGuard(primaryStep)}%` }}>
-        <ProgressSalt />
-      </SaltyProgressWrapper>
+    {showFrappeyProgress && (
+      <FrappeyProgressWrapper style={{ left: `${stepGuard(primaryStep)}%` }}>
+        <ProgressFrappe />
+      </FrappeyProgressWrapper>
     )}
     <Bar primary style={{ width: `${stepGuard(primaryStep)}%` }} />
     {secondaryStep ? <Bar style={{ width: `${stepGuard(secondaryStep)}%` }} /> : null}

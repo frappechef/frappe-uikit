@@ -1,14 +1,14 @@
 {
-  "name": "@saltswap/uikit",
-  "version": "1.2.32",
-  "description": "Set of UI components for SaltSwap projects",
+  "name": "@frappechef/uikit",
+  "version": "1.0.0",
+  "description": "Set of UI components for Frappe projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/saltswap/saltswap-uikit",
+  "repository": "https://github.com/frappechef/frappe-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
@@ -36,7 +36,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@rollup/plugin-typescript": "^8.2.0",
-    "@saltswap/eslint-config-salt": "1.0.0",
+    "@frappefinance-libs/eslint-config-frappe": "1.0.0",
     "@storybook/addon-a11y": "^6.1.18",
     "@storybook/addon-actions": "^6.1.18",
     "@storybook/addon-essentials": "^6.1.18",

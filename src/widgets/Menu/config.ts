@@ -10,12 +10,12 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.saltswap.finance",
+        href: "https://exchange.frappe.finance",
         icon: "ExchangeIcon",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.saltswap.finance/#/pool",
+        href: "https://exchange.frappe.finance/#/pool",
         icon: "LiquidityIcon",
       },
     ],
@@ -81,19 +81,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://saltswap.info",
+        href: "https://info.frappe.finance",
       },
       {
         label: "Tokens",
-        href: "https://saltswap.info/tokens",
+        href: "https://info.frappe.finance/tokens",
       },
       {
         label: "Pairs",
-        href: "https://saltswap.info/pairs",
+        href: "https://info.frappe.finance/pairs",
       },
       {
         label: "Accounts",
-        href: "https://saltswap.info/accounts",
+        href: "https://info.frappe.finance/accounts",
       },
     ],
   },
@@ -117,7 +117,7 @@ export const links = [
     items: [
       {
         label: "Voting",
-        href: "https://voting.saltswap.finance",
+        href: "https://voting.frappe.finance",
       },
       {
         label: "Github",
@@ -126,12 +126,12 @@ export const links = [
       },
       {
         label: "Docs",
-        href: "https://docs.saltswap.finance",
+        href: "https://docs.frappe.finance",
         icon: "GitbookIcon",
       },
       {
         label: "Blog",
-        href: "	https://medium.com/@saltswap",
+        href: "	https://medium.com/@frappefinance",
         icon: "MediumIcon",
       },
     ],
@@ -145,22 +145,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/saltswap",
-      },
-      {
-        label: "Русский",
-        href: "https://t.me/saltswaprussia",
-      },
-      {
-        label: "Deutsch",
-        href: "https://t.me/SaltSwapDeutsch",
-      },
+        href: "https://t.me/frappefinance",
+      }
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/saltswap",
+    href: "https://twitter.com/frappefinance",
   },
 ];
 

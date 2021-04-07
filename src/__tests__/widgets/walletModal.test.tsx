@@ -397,7 +397,7 @@ it("renders ConnectModal correctly", () => {
           <a
             class="sc-bdfBwQ sc-gsTCUz fcHYwF djpNeP sc-iqHYGH hzLTbV"
             color="primary"
-            href="https://docs.saltswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
+            href="https://docs.frappe.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
             rel="noreferrer noopener"
             target="_blank"
           >

@@ -20,7 +20,7 @@ it("renders correctly", () => {
             .prefix__st22{fill:#fff}.prefix__st62{fill:#c9d9e5}.prefix__st63{fill:#e2e7f0}
           </style>
           <g
-            id="prefix__salt"
+            id="prefix__frappe"
           >
             <circle
               class="prefix__st62"

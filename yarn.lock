@@ -2309,10 +2309,10 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@saltswap/eslint-config-salt@1.0.0":
+"@frappefinance-libs/eslint-config-frappe@1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@saltswap/eslint-config-salt/-/eslint-config-salt-1.0.0.tgz#cc004c324f7c8a5ea1000b4e297f7014d00d7fe8"
-  integrity sha512-OwrY2azm3ICCuulxBfG1QBGYyd4uxsWzU1imMVzjmWw9rNiVPX0Rb8WBlfNRkI/ZxEH37NWQ4aTgnrI4jOkd4Q==
+  resolved "https://registry.npmjs.org/@frappefinance-libs/eslint-config-frappe/-/eslint-config-frappe-1.0.0.tgz#7e7ee1cc0cbfbbb2b6c55c374bcdaa9957e63912"
+  integrity sha512-50l7+UcTA4zZGNd/3wAfiKZI63Il/EaO+uvu4tDeJou5fVK4hwaTQ2QgXYzuOWaPQNToZatP25LfKbMFSLKwCQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.2.0"
     "@typescript-eslint/parser" "^4.2.0"

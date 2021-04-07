@@ -5,7 +5,7 @@ import { SvgProps } from "../Svg/types";
 const Icon: React.FC<SvgProps> = (props) => (
   <Svg viewBox="0 0 44 44" {...props}>
     <style>{".prefix__st22{fill:#fff}.prefix__st62{fill:#c9d9e5}.prefix__st63{fill:#e2e7f0}"}</style>
-    <g id="prefix__salt">
+    <g id="prefix__frappe">
       <circle className="prefix__st62" cx={6} cy={33} r={1} />
       <circle className="prefix__st62" cx={6} cy={37} r={1} />
       <circle className="prefix__st62" cx={10} cy={35} r={1} />
