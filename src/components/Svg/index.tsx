@@ -29,7 +29,7 @@ export { default as LogoRoundIcon } from "./Icons/LogoRound";
 export { default as MinusIcon } from "./Icons/Minus";
 export { default as NoProfileAvatarIcon } from "./Icons/NoProfileAvatar";
 export { default as OpenNewIcon } from "./Icons/OpenNew";
-export { default as FrappeIcon } from "./Icons/Salt";
+export { default as FrappeIcon } from "./Icons/Frappe";
 export { default as FrappeRoundIcon } from "./Icons/FrappeRound";
 export { default as PrizeIcon } from "./Icons/Prize";
 export { default as RemoveIcon } from "./Icons/Remove";
